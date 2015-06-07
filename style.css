@@ -1,0 +1,522 @@
+/*=-=-=-=-=-=-=-=-IF NO JAVASCRIPT=-=-=-=-=-=-=-=-*/
+noscript{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(184, 209, 208, .95);
+	border: 1px outset;
+	border-radius: 10px;
+	box-shadow: 8px 8px 8px #696969;
+	padding: 50px 100px;
+	z-index: 10;
+}
+/*----------------------Main--------------------*/
+body{
+	position: relative;
+	height: 1050px;
+	background-image: url("images/vinetageBeach.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Arvo', serif;
+	font-size: 14px;
+	color: rgba(44, 40, 40, 0.9);
+	margin: 0;
+	padding: 0;
+}
+p, li{
+	font-weight: bold;
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+a{
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1em;
+	color: rgba(44, 40, 40, 0.90);
+}
+.pageContent{
+	position: absolute;
+	top: 150px;
+	right: 10px;	
+}
+footer{
+	position: absolute;
+	top: 1000px;
+	right: 10px;
+	font-family: 'Rock Salt', 'Courier New', cursive;
+	opacity: .75;
+	color: rgba(145, 145, 145, 0.90);
+	font-size: .75em;
+}
+/*--------------Social Media and Home page Link-----------------*/
+.linkSection{
+	position: absolute;
+	top: 220px;
+	right: 5px;
+}
+.linkButtons li{
+    display: inline;
+}
+.linkButtons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.homeIcon{
+	background: url("images/linkSprites_041415.png") 0px 0px;
+}
+.homeIcon:hover{
+	background: url("images/linkSprites_041415.png") 0px -40px;
+}
+.github{
+	background: url("images/linkSprites_041415.png") -40px 0px;
+}
+.github:hover{
+	background: url("images/linkSprites_041415.png") -40px -40px;	
+}
+.git{
+	background: url("images/linkSprites_041415.png") -40px -40px;	
+}
+.linkedin{
+	background: url("images/linkSprites_041415.png") -80px 0px;
+}
+.linkedin:hover{
+	background: url("images/linkSprites_041415.png") -80px -40px;
+}
+.link{
+	background: url("images/linkSprites_041415.png") -80px -40px;
+}
+.facebook{
+	background: url("images/linkSprites_041415.png") -120px 0px;
+}
+.facebook:hover{
+	background: url("images/linkSprites_041415.png") -120px -40px;
+}
+.face{
+	background: url("images/linkSprites_041415.png") -120px -40px;
+}
+.googleplus{
+	background: url("images/linkSprites_041415.png") -160px 0px;
+}
+.googleplus:hover{
+	background: url("images/linkSprites_041415.png") -160px -40px;
+}
+.google{
+	background: url("images/linkSprites_041415.png") -160px -40px;
+}
+/*---------------Page Navs---------------*/
+.pageNavs{
+	position: absolute;
+	top: 350px;
+	left: 5px;
+	font-family: 'Rock Salt', 'Courier New', cursive;
+	height: 300px;	
+	cursor: pointer;
+}
+li {
+	list-style: none;
+}
+.siteNavItems a{
+	margin-top: 30px;
+	padding: 15px;
+	font-size: 1.5em;
+	font-weight: bolder;
+	color: rgba(217, 217, 217, 0.75);
+	text-shadow: 5px 5px 5px gray;
+	display: block;
+	text-align: center;
+	height: 25px;
+	width: 110px;
+	text-decoration: none;
+}
+#skills{
+	position: absolute;
+	top: 20px;
+	left: 0px;
+}
+#resume{
+	position: absolute;
+	top: 110px;
+	left: 50px;
+}
+#portfolio{
+	position: absolute;
+	top: 210px;
+	left: 90px;
+}
+#contact{
+	position: absolute;
+	top: 310px;
+	left: 130px;
+}
+/*======================Page Content==========================*/
+/*============================================================*/
+/*--------------------Welcome-----------------*/
+#welcome{
+	top: 425px;
+	left: 350px;
+	width: 700px;
+	font-weight: bold;
+}
+.welcomeParagraph{
+	text-indent: 25px;	
+}
+.welcomeHeader{
+	font-family: 'Rock Salt', 'Courier New', cursive;
+	border-bottom: 3px solid rgba(44, 40, 40, 0.90);
+	width: 500px;
+}
+.openContactLink{
+	font-weight: bold;
+	color: rgba(44, 40, 40, 0.90);
+}
+/*--------------------Skills-----------------*/
+#benSkills{
+	top: 425px;
+	left: 400px;
+	width: 600px;
+	text-indent: 25px;	
+}
+.certClass{
+	color: rgba(44, 40, 40, 0.90);
+	list-style-type: square;	
+}
+.w3cert{
+	position: relative;
+	left: 200px;
+	height: 50px;
+	width: 150px;
+}
+/*-------------------Resume-----------------*/
+#benResume{
+	top: 450px;
+	left: 325px;
+	width: 700px;		
+}
+.resumeIntro{
+	text-indent: 25px;
+}
+.benTanseyResume{
+	margin-left: 30%;
+	font-size: 1.1em;
+}
+p a{
+	text-decoration: none;
+}
+/*------------------Portfolio-----------------*/
+#benPortfolio{
+	top: 475px;
+	left: 400px;
+	width: 600px;
+	text-indent: 25px;	
+}
+.portfolioLinks{
+	display: block;
+	margin-left: 10%;
+	font-size: 1.5em;
+}
+/*-------------------Contact----------------*/
+#inquiryForm{
+	position: absolute;
+	top: 400px;
+	left: 400px;
+	padding-left: 75px;
+	padding-top: 10px;
+	width: 400px;
+	height: 550px;
+	font-weight: bold;
+	font-size: 1.25em;
+	color: rgba(44, 40, 40, 0.90);
+	border: 1px outset;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 8px 8px 8px #696969;
+	background-image: url("images/lightbrownshabbywood.jpg");
+	background-size: contain;
+	line-height: 2em;
+}
+.form{
+	margin: 15px 0px 10px 0px;
+}
+label, #valConf{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	background-color: rgba(238, 214, 175, .5);
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+	#inquiryForm input[type="submit"],#inquiryForm input[type="reset"]{
+		width: 25%;
+		font-size: 1em;
+		margin-right: 5%;
+		-webkit-border-radius: 3%;
+		        border-radius: 3%;
+	}
+/*===========================Thank-You Page===========================*/
+/*===================================================================*/
+.thankYouDiv{
+	position: absolute;
+	top: 375px;
+	left: 25px;
+	width: 1000px;
+	font-family: 'Rock Salt', 'Courier New', cursive;
+	font-weight: bolder;
+	font-size: larger;
+	color: rgba(44, 40, 40, 0.90);
+	text-shadow: 5px 5px 5px gray;
+}
+.beInTouch{
+	position: absolute;
+	top: 75px;
+	left: 250px;
+}
+.returnLink{
+	position: absolute;
+	top: 175px;
+	left: 300px;
+	font-size: medium;
+}
+/*===========================Media Queries===========================*/
+/*and (orientation : portrait) **ADD this line to change tablet orientation */  
+/*========================Tablet (Portrait View)=========================*/
+@media only screen and (min-device-width : 641px) and (max-device-width : 768px){
+	/*=====================Main Page===========================*/
+	/*----------------------Main--------------------*/
+	body{
+		max-width: 700px;
+		height: 1500px;
+		font-size: 1.2em;
+	}
+	.linkSection{
+		top: 5px;
+		left: -25px;
+	}
+	.linkButtons li{
+    	display: block;
+    	padding-bottom: 10px;
+    }
+    .linkButtons a{
+    	width: 40px;
+    	height: 40px;
+	}
+	footer{
+		top: 1450px;
+		font-size: .75em;
+	}
+	/*------------------Page Navs------------------*/
+	.siteNavItems{
+		font-size: 1.75em;
+		width: 350px;
+	}
+	#skills{
+		top: -55px;
+		left: -75px;
+	} 
+	#resume{
+		top: -55px;
+		left: 150px;
+	} 
+	#portfolio{
+		top: -55px;
+		left: 400px;
+	} 
+	#contact {
+		top: -55px;
+		left: 650px;
+	}
+	/*------------------Page Content------------------*/
+	.pageContent, p, .openContactLink{
+		width: 700px;
+	}
+	#welcome{
+		top: 600px;
+		left: 150px;
+	}
+	#benSkills{
+		top: 600px;
+		left: 100px;
+	}
+	.w3cert{
+		left: 100px;
+		height: 75px;
+		width: 175px;
+	}
+	#benResume{
+		top: 625px;
+		left: 100px;	
+	}
+	.benTanseyResume, .portfolioLinks{
+		text-decoration: underline;
+		color: #696969;
+	}
+	#benPortfolio{
+		top: 625px;
+		left: 100px;		
+	}
+	#inquiryForm{
+		top: 625px;
+		left: 225px;
+		width: 500px;
+		height: 750px;
+		line-height: 3em;
+	}
+	#inquiryForm input[type="text"],#inquiryForm textarea[type="text"]{
+		width: 400px;
+	}
+	#inquiryForm input[type="text"]{
+		height: 20px;
+	}
+	#inquiryForm input[type="submit"],#inquiryForm input[type="reset"]{
+		width: 100px;
+		height: 50px;
+		font-weight: bold;
+		font-size: .75em;
+	}
+	/*========================Thank-You Page======================*/
+	.thankYouDiv{
+		top: 550px;
+		left: 100px;	
+	}
+	.beInTouch {
+		left: -25px;
+	}
+	.returnLink{
+		font-size: 1.25em;
+		left: -15px;
+	}
+	.thankyouFooter{
+		position: absolute;
+		top: -50px;
+		right: -225px;
+		font-size: 1.25em;
+	}
+}	
+/*===========================Media Queries===========================*/
+/*========================SmartPhone (640px)=========================*/
+
+@media screen and (max-device-width: 640px){
+	/*=====================Main Page===========================*/
+	/*----------------------Main--------------------*/
+	body{
+		height: 1600px;
+		font-size: 1.15em;
+	}
+	.linkSection{
+		top: 5px;
+		left: -25px;
+	}
+	.linkButtons li{
+    	display: block;
+    	padding-bottom: 10px;
+    }
+    .linkButtons a{
+    	width: 40px;
+    	height: 40px;
+	}
+	footer{
+		top: 1550px;
+		right: -150px;
+	}
+	/*------------------Page Navs------------------*/
+
+	.siteNavItems{
+		font-size: 1.25em;
+	}
+	#skills{
+		top: -30px;
+		left: -10px;
+	} 
+	#resume{
+		top: -30px;
+		left: 100px;
+	} 
+	#portfolio{
+		top: -30px;
+		left: 225px;
+	} 
+	#contact {
+		top: -30px;
+		left: 385px;
+	}
+	/*------------------Page Content------------------*/
+	.pageContent, p{
+		font-size: 1.1em;
+		width: 500px;
+	}
+	#welcome{
+		top: 600px;
+		left: 50px;
+		width: 125%;
+	}
+	#benSkills{
+		top: 625px;
+		left: 25px;
+	}
+	.w3cert{
+		left: 50px;
+		height: 50px;
+		width: 150px;
+	}
+	#benResume{
+		top: 650px;
+		left: 25px;	
+		font-size: 1.15em;
+	}
+	.benTanseyResume, .portfolioLinks{
+		text-decoration: underline;
+		color: #696969;
+	}
+	.benTanseyResume{
+		margin-left: 12%;
+	}
+	#benPortfolio{
+		top: 650px;
+		left: 25px;		
+	}
+	#inquiryForm{
+		top: 625px;
+		left: 50px;
+		width: 325px;
+		height: 625px;
+		padding-top: 25px;
+	}
+	#inquiryForm input[type="text"],#inquiryForm textarea[type="text"]{
+		width: 200px;
+	}
+	#inquiryForm input[type="text"]{
+		height: 20px;
+	}
+	#inquiryForm input[type="submit"],#inquiryForm input[type="reset"]{
+		width: 100px;
+		height: 50px;
+		font-size: .75em;
+		font-weight: bold;
+	}
+	/*========================Thank-You Page======================*/
+	.thankYouDiv{
+		top: 550px;
+		left: 100px;	
+	}
+	.beInTouch {
+		left: -25px;
+	}
+	.returnLink{
+		font-size: 1.25em;
+		left: -15px;
+	}
+	.thankyouFooter{
+		position: absolute;
+		top: -50px;
+		right: -225px;
+		font-size: 2em;
+	}
+
+}
+
+
+
+
+
+
+

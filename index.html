@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Ben Tansey</title>
+
+	<!--link to main script page attached to Require along with JQuery and components-->	
+	<script data-main="jS/config.js" src="jS/jSLibs/require.js"></script>
+	<script src="jS/jSLibs/jquery-1.11.2.min.js"></script>
+	<script src="jS/jQ.js"></script>
+
+
+	<link rel="stylesheet" href="style.css">
+	<!--links to google fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+	
+	<!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+	<![endif]-->
+
+	<!--Google Analytics information-->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-60324475-2', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+	<!--If JavaScript is not activated-->
+	<noscript>
+		Please Activate Your JavaScript To Properly View This Page,
+		Thank You & Cheers! --Ben Tansey
+	</noscript>
+		
+	<!--Social media buttons--> 
+	<header class="linkSection">	   
+		<nav class="linkButtons">
+	    	<ul>
+	    		<!--Link to beginning homepage-->
+	    		<li><a href="#/" class="homeIcon"></a></li>
+	    		<!--Github-->
+				<li><a href="https://github.com/btanz5" 
+					alt="Github" class="github"></a></li>
+				<!--Linkedin-->
+				<li><a href="https://www.linkedin.com/pub/ben-tansey/43/25/b11/" 
+					alt="Linkedin" class="linkedin"></a></li>
+	    		<!--Facebook-->
+				<li><a href="https://www.facebook.com/ben.tansey.90" 
+					alt="Facebook" class="facebook"></a></li>
+				<!--GooglePlus-->
+				<li><a href="https://plus.google.com/116446147479832174487/posts" 
+					alt="Google+" class="googleplus"></a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<nav class="pageNavs">
+		<ul>
+			<li id="skills" class="siteNavItems"><a href="#/skills">Skills</a></li>
+			<li id="resume" class="siteNavItems"><a href="#/resume">Resume</a></li>
+			<li id="portfolio" class="siteNavItems"><a href="#/portfolio">Portfolio</a></li>
+			<li id="contact" class="siteNavItems"><a href="#/contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!--=============
+		PAGE CONTENT
+			===============-->
+
+	<div> 
+		<div ng-view></div>
+	</div>
+
+	<footer>Site Designed And Developed By Ben Tansey, est 2015.
+	</footer>
+
+</body>
+</html>
+
+
+
+
